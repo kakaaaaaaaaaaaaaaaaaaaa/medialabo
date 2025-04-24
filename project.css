@@ -1,0 +1,22 @@
+p {
+	color: black;
+  font-family: cursive ;
+}
+
+
+h1 {
+	color:gray;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2 {
+	margin: 5px;     
+	background:linear-gradient(gray, white);
+    font-family: sans-serif;
+}
+h3{
+  background:linear-gradient(yellowgreen, yellow);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+}
+
