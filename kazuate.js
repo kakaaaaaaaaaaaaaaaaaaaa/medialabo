@@ -23,7 +23,7 @@ function hantei() {
   kaisu =kaisu+1;
   // 将来ここでは 4 ではなくテキストボックスに指定された数値を yoso に代入する
   let b = document.querySelector('input[name="kazu"]');
-  let kazu1 =s.value;
+  let kazu1 =b.value;
   let yoso =Number(kazu1);
 
   
@@ -32,7 +32,7 @@ function hantei() {
   // 課題3-1における出力先はコンソール
   if(4<=kaisu){
     x.textContent = kaisu+'回目予想';
-    z.textcontent ='答えは'+kotae+'でした。すでにゲームは終わっています。';
+    z.textContent ='答えは'+kotae+'でした。すでにゲームは終わっています。';
   }
   if(kaisu < 4 &&kotae ===yoso){
     x.textContent = kaisu+'回目予想';
